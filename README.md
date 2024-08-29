@@ -10,8 +10,8 @@
 * SSH into your newly created instance
 * Update OS packages: `sudo apt-get update`
 * Install Git: `sudo apt install git`
-* Clone App Repo: `git clone https://github.com/dlops-io/simple-translate.git`
-* `cd simple-translate`
+* Clone App Repo: `git clone https://github.com/dlops-io/simple-translate-aws.git`
+* `cd simple-translate-aws`
 * Install Python: `sudo apt install python3-pip`
 * Install packages: `pip3 install --break-system-packages googletrans==4.0.0rc1 art`
 Test out the translations:
@@ -32,7 +32,7 @@ Refer to language codes at the bottom of this page.
 * SSH into your newly created instance
 * Update OS packages: `sudo apt-get update`
 * Install Git: `sudo apt install git`
-* Clone App Repo: `git clone https://github.com/dlops-io/simple-translate.git`
+* Clone App Repo: `git clone https://github.com/dlops-io/simple-translate-aws.git`
 * `cd simple-translate`
 * Open Pipfile and change Python version to 3.12 `python_version = "3.11"`
 * Delete Pipfile.lock
@@ -76,7 +76,7 @@ If you already have a preferred text editor, skip this step.
 
 ### Clone the github repository
 
-- Clone or download from [here](https://github.com/dlops-io/simple-translate)
+- Clone or download from [here](https://github.com/dlops-io/simple-translate-aws)
 
 ### Building Docker Image
 
