@@ -33,10 +33,7 @@ Refer to language codes at the bottom of this page.
 * Update OS packages: `sudo apt-get update`
 * Install Git: `sudo apt install git`
 * Clone App Repo: `git clone https://github.com/dlops-io/simple-translate-aws.git`
-* `cd simple-translate`
-* Open Pipfile and change Python version to 3.12 `python_version = "3.11"`
-* Delete Pipfile.lock
-
+* `cd simple-translate-aws`
 * Install Pipenv: `sudo apt install pipenv`
 * Install Pipenv environment from Pipfile: `pipenv install`
 * Go into the newly created environment shell: `pipenv shell`
@@ -82,7 +79,7 @@ If you already have a preferred text editor, skip this step.
 
 Go into the app folder by running
 
-* `cd simple-translate`
+* `cd simple-translate-aws`
   Build the docker container by running
 * `docker build -t simple-translate -f Dockerfile .`
 
@@ -113,7 +110,9 @@ Run the container using:
 
 ## Running App on VM using Docker (T4)
 
-* Create a VM Instance from [GCP](https://console.cloud.google.com/compute/instances)
+* Create a VM Instance from [AWS](https://aws.amazon.com/) 
+(Suggested Instance: Ubuntu (t2.large) - Ubuntu Server 24.04 LTS (HVM),EBS General Purpose (SSD) Volume Type, )
+
 * SSH into your newly created instance
 Install Docker on the newly created instance by running
 * `curl -fsSL https://get.docker.com -o get-docker.sh`
