@@ -115,8 +115,8 @@ Run the container using:
 
 * SSH into your newly created instance
 Install Docker on the newly created instance by running
-* `curl -fsSL https://get.docker.com -o get-docker.sh`
-* `sudo sh get-docker.sh`  
+* `sudo apt-get update`
+* `sudo apt install docker.io`
 
 Check version of installed Docker
 * `sudo docker --version`  
